@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 40px;
+}
+
+.logoImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 10%;
+    height: auto;
+}
+
+.nav {
+    background-color: lightgrey;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 36px;
+    position: sticky;
+    top: 0px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: white;
+}
+
+.active {
+    background-color: white;
+}
+
+.fixImage {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    /* Height of the footer*/
+    height: auto;
+    background: grey;
+}
+
+#footerText {
+    font-size: 24px;
+    margin-left: 25px;
+}
